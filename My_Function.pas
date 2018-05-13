@@ -7,7 +7,7 @@ Var
 	roundedValue: Integer;
 begin
 	cirRadius := ReadInteger('enter Radius: ');
-	cirArea := Pi() * Sqr(CirRadius);
+	cirArea := Pi() * Sqr(CirRadius) * 10;
 	WriteLn('Circles area is ', cirArea:4:2);
 	roundedValue :=Round(cirArea);
 	WriteLn('Which rounded off has a value of ', roundedValue);
